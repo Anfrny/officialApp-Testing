@@ -1,14 +1,33 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
+    <ion-title>Stock Inventory System</ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content padding="true" class="has-header">
+  <h4 style="color:#000000;">A - D</h4>
+  <div class="list-card">
+    <ion-item class="item-thumbnail-left">
+      <h1 align="center">Carmela Stock</h1>
+      <p>Name</p>
+    </ion-item>
+    <ion-item>16oz
+      <p id="carm_16" float-right="">{{ carm_Ref_16 }}</p>
+    </ion-item>
+    <ion-item>10oz
+      <p id="carm_10_s" float-right="">{{ carm_Ref_10 }}</p>
+    </ion-item>
+    <ion-item>Linen
+      <p id="carm_li" float-right="">2</p>
+    </ion-item>
+    <ion-item>Pure Oil
+      <p id="carm_pu" float-right="">2</p>
+    </ion-item>
+  </div>
 </ion-content>
+
+
+<script>
+
+
+</script>
